@@ -1,0 +1,11 @@
+Gemfile: Server-Side, because bundler uses the Gemfile to install dependencies such as Sinatra and Ruby Gems.
+
+Ruby Files: Server-Side: Serves as the core for any Sinatra application. Ruby files/code run on a server to tell it how
+to process an HTTP request.
+
+Style-Sheets: Client-Side: Tells the client(browser) how to display HTML code.
+
+JavaScript: Client-Side: Used to add additional behavior to a web page.
+
+View-Templates: Server-Side: Embedded Ruby document, the embedded Ruby within the document is processed on the server. After
+the document is processed on the server-side, it is sent to the client (browser), where the HTML is processed.
