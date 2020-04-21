@@ -16,4 +16,5 @@
 <h2>Notes</h2>
 <ul>
   <li>View Helpers are called when the page is rendered, not when user actions are performed on page elements.</li>
+  <li>The `redirect` method, when called from a routing-block, tells Sinatra to stop processing, and issues a GET request.</li>
 </ul>
