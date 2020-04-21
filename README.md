@@ -1,4 +1,4 @@
-<h1>Networked Applications Course Demonstrations/Experiments</h1>
+<h1>Networked Applications Course</h1>
 <ul>
   <li> Sinatra is a small web framework.</li>
   <li> HTTP requests are handled in Sinatra by creating routes for a path or set of paths.</li>
