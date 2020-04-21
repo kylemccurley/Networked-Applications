@@ -12,3 +12,8 @@
   <li>The redirection is accomplished by setting the Location header in the response. The client looks at the URL in the location header and sends out a new HTTP GET request for the associated resource, which in turn navigates the client to that new location.</li>
   <li>The files in a project can be identified as either server-side or client-side code based on where they will be evaluated.</li>
 </ul>
+
+<h2>Notes</h2>
+<ul>
+  <li>View Helpers are called when the page is rendered, not when user actions are performed on page elements.</li>
+</ul>
