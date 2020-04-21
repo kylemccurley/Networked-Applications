@@ -1,1 +1,1 @@
-<h1>Networked Applications Demonstrations/Experiments</h1>
+<h1>Networked Applications Course Demonstrations/Experiments</h1>
