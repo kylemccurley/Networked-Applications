@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <div id='content'>
+      <%= yield %>
+    </div>
+
+    <div id='interest-count'>
+      <h2>There are <%= @users.keys.size %> users with a total of <%= number_of_interests %> interests.</h2>
+    </div>
+  </body>
+</html>
