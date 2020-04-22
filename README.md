@@ -13,6 +13,15 @@
   <li>The files in a project can be identified as either server-side or client-side code based on where they will be evaluated.</li>
 </ul>
 
+<h2>Deploying Heroku Applications Notes:</h2>
+<ul>
+<li>Procfile defines what types of processes are provided by the application and how to start them.<li>
+<li>config.ru tells the web server how to start the application. In this project, we require the file that contains the Sinatra application and then start it.</li>
+<li>While WEBrick is a fine web server for development, it is better to use a production-ready web server such as Puma when deploying a project.</li>
+<li>Puma is a threaded web server, which means that it can handle more than one request at a time using a single process. As a result, Puma will perform much better for most applications.</li>
+<li>A specific version of Ruby can be specified in the Gemfile to ensure that the same version is used in both development and production.</li>
+</ul>
+  
 <h2>Notes</h2>
 <ul>
   <li>View Helpers are called when the page is rendered, not when user actions are performed on page elements.</li>
